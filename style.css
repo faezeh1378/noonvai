@@ -1,0 +1,75 @@
+@import url('css/bootstrap.css');
+@import url('css/custom.css');
+/*
+Theme Name: وب سایت 360 درجه
+Theme url:http://www.360.ir
+Theme Author: سید یاسر داودفر
+Author url:http://www.360.ir
+Description:قالب خبری وردپرس
+Version:1.0
+*/
+/*** footer **/
+body{
+font-family:"b yekan";
+background: #f1f1f1;
+direction: rtl;
+}
+.slider{
+   float: right;
+   width: 100%;
+   height: auto;
+
+}
+.footer{
+	float: right;
+	width: 100%;
+	height: auto;
+	background: #7f8c8d;
+}
+.footermnu{
+	float: right;
+	width: 100%;
+	height: auto;
+
+}
+.footermnu ul li a{
+	float: right;
+	padding: 10px;
+	margin:5px;
+	height: auto;
+
+}
+.footermnu ul li:hover{
+	padding-right: 15px;
+	margin:5px;
+	height: auto;
+
+}
+.socialpage{
+	float: right;
+	width: 100%;
+	height: auto;
+}
+.socialpage ul{
+	margin: 0 1%;
+}
+.socialpage ul li{
+	margin: 5px;
+	float: right;
+	list-style: none;
+}
+.socialpage ul li a{
+	float: right;
+	padding:5px 10px 2px;
+	font-size: 25px;	
+}
+
+.socialpage ul li:nth-child(1):hover{background: #2980b9;}
+.socialpage ul li:nth-child(2):hover{background: #e67e22;}
+.socialpage ul li:nth-child(3):hover{background: #3498db;}
+.socialpage ul li:nth-child(4):hover{background: #e74c3c;}
+.socialpage ul li:nth-child(5):hover{background: #414040;}
+.footer p{
+	float: right;
+	margin: 20px 1% 0;
+}
